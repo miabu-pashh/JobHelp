@@ -1,0 +1,25 @@
+/* ResumeDiffViewer.css */
+.diff-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  font-family: monospace;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  padding: 1rem;
+  overflow-x: auto;
+  max-height: 400px;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.diff-container ins {
+  background-color: #d4f8d4;
+  color: green;
+  text-decoration: none;
+}
+
+.diff-container del {
+  background-color: #fdd;
+  color: red;
+  text-decoration: line-through;
+}
