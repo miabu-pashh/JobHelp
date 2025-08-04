@@ -41,6 +41,14 @@ export async function saveToDatabase(data) {
   ];
 
   try {
+    console.log("🔍 Validating input data...");
+
+    // Check if all fields are empty
+    if (values.every((value) => !value) && values.jobDescription === "") {
+      console.log("⚠️ All fields are empty. Cannot insert.");
+      throw new Error("EMPTY_FIELDS");
+    }
+
     console.log("🔍 Checking for existing entry...");
 
     const checkQuery = `
@@ -77,10 +85,14 @@ export async function saveToDatabase(data) {
     if (err.message === "DUPLICATE_ENTRY") {
       throw new Error("DUPLICATE_ENTRY");
     }
+    if (err.message === "EMPTY_FIELDS") {
+      throw new Error("EMPTY_FIELDS");
+    }
     console.error("❌ PG Insert Error:", err);
     throw err;
   }
 }
+
 export async function fetchFromDatabase() {
   const query = "SELECT * FROM generated_data";
   try {

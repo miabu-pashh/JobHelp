@@ -211,17 +211,13 @@ website to reduce the confusion among new customers visiting the website, improv
 
 \\vspace{-0.8em}
 \\begin{rSection}{Internships}
-\\textbf{\\href{https://gamesforlove.org/}{Games For Love}} \\textbar\\
-\\textbf{\\href{https://www.missouribotanicalgarden.org/media/fact-pages/botanical-heights}{BHNA}} \\textbar\\
-\\textbf{\\href{https://www.itsyourbirthdayinc.org/}{It’s Your Birthday}} \\textbar\\ Saint Louis, MO \\hfill \\textbf{Jun 2023 -- Dec 2024}
-\\vspace{-0.5em}
-
+\\vspace{-0.3em}
 \\begin{itemize}[leftmargin=*, itemsep=-0.5em, topsep=0em]
-    \\item \\textbf{Games for love}: Designed and developed a game aimed at enhancing cognitive abilities by \\textbf{15\\%}, optimizing players' reaction times for improved performance. \\textbf{Tech stack}: C\\#, HTML, CSS, Machine Learning.
-    
-    \\item \\textbf{Botanical Heights Neighbourhood Association}: Led the development of a customer sentiment analysis tool leveraging natural language processing, achieving a \\textbf{20\\%} improvement in prediction accuracy through advanced model optimization techniques. \\textbf{Tech stack}: Python, Scikit-learn, Pandas, Seaborn
-    
-    \\item \\textbf{It’s Your Birthday}: Developed a machine learning model to predict event participation trends with an accuracy of \\textbf{85\\%}, enabling data-driven decision-making. \\textbf{Tech stack}: Python, Matplotlib, Pandas, PostgreSQL
+    \\item \\textbf{\\href{https://gamesforlove.org/}{Games For Love}}: Designed and developed a game aimed at enhancing cognitive abilities by \\textbf{15\\%}, optimizing players' reaction times for improved performance. \\textbf{Tech stack}: C\\#, HTML, CSS, Machine Learning.
+
+    \\item \\textbf{\\href{https://www.missouribotanicalgarden.org/media/fact-pages/botanical-heights}{Botanical Heights Neighbourhood Association}}: Led the development of a customer sentiment analysis tool leveraging natural language processing, achieving a \\textbf{20\\%} improvement in prediction accuracy through advanced model optimization techniques. \\textbf{Tech stack}: Python, Scikit-learn, Pandas, Seaborn
+
+    \\item \\textbf{\\href{https://www.itsyourbirthdayinc.org/}{It’s Your Birthday}}: Developed a machine learning model to predict event participation trends with an accuracy of \\textbf{85\\%}, enabling data-driven decision-making. \\textbf{Tech stack}: Python, Matplotlib, Pandas, PostgreSQL
 \\end{itemize}
 \\end{rSection}
 
@@ -282,7 +278,7 @@ I am writing to express my enthusiasm for the [Position] opportunity at [Company
 
 I believe the organization's mission and type of work are closely aligned with my professional interests. Your organization’s focus on [type of work the company does] resonates with my passion for delivering scalable, efficient, and user-friendly applications.
 
-In my current role at MetLife, I have led multiple Agile teams to develop high-availability backend systems using Core Java, Spring Boot, and Microservices, achieving a 30% improvement in scalability. My front-end development skills in React.js and Angular, coupled with efficient AWS deployments, resulted in a 20% reduction in operational costs.
+In my previous role at MetLife, I have led multiple Agile teams to develop high-availability backend systems using Core Java, Spring Boot, and Microservices, achieving a 30% improvement in scalability. My front-end development skills in React.js and Angular, coupled with efficient AWS deployments, resulted in a 20% reduction in operational costs.
 
 My previous roles at Nagarro and Adons Soft Tech further strengthened my capabilities in building robust web applications and optimizing system performance. At Nagarro, I implemented real-time chat systems in the BFSI domain and developed rapid low-code applications using Mendix. At Adons, I accelerated backend processing by 45% through Java-based solutions and improved user experience with responsive UI design.
 
@@ -305,7 +301,7 @@ Subject: Experienced Java Full-Stack Engineer – Open to Opportunities
 
 Hi [Hiring Manager’s Name],
 
-I hope you're doing well. My name is Mahaboob Pasha Mohammad, and I’m a Software Engineer with over 4 years of experience in Java Full Stack Development, currently working at MetLife. I recently completed my Master’s in Software Engineering at Saint Louis University and have built scalable backend systems and responsive frontend apps across BFSI, Healthcare, and eCommerce domains.
+I hope you're doing well. My name is Mahaboob Pasha Mohammad, and I’m a Software Engineer with over 4 years of experience in Java Full Stack Development. I recently completed my Master’s in Software Engineering at Saint Louis University and have built scalable backend systems and responsive frontend apps across BFSI, Healthcare, and eCommerce domains.
 
 I’m reaching out to explore any potential opportunities at [Company Name] where my background in Core Java, Spring Boot, Microservices, and React/Angular could add value. I’ve attached my resume and cover letter for your reference and would welcome a brief chat if you're open to connecting.
 

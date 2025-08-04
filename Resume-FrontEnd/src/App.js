@@ -8,7 +8,8 @@ import "./App.css";
 import ATSAnalysis from "./components/ATSAnalysis";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CoverLetterPage from "./components/CoverLetterPage"; // <- new
-
+import Login from "./components/Login"; // <- new
+import WelcomePage from "./components/WelcomePage"; // <- new
 function App() {
   const [activeTab, setActiveTab] = useState("resume");
   const [jobDescription, setJobDescription] = useState("");
@@ -20,7 +21,13 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<JDInput onJDUpdate={setJobDescription} />} />
+        <Route path="/" element={<WelcomePage />} />
+
+        <Route path="/login" element={<Login />} />
+        <Route
+          path="/jdinput"
+          element={<JDInput onJDUpdate={setJobDescription} />}
+        />
         <Route
           path="/ats-analysis"
           element={<ATSAnalysis jobDesc={jobDescription} />}

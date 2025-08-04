@@ -278,3 +278,199 @@
     min-width: 100%;
   }
 }
+
+.gmail-overlay {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 2000;
+}
+
+.gmail-compose-box {
+  width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  font-family: "Google Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.gmail-header {
+  background-color: #f2f2f2;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+
+.gmail-icons span {
+  margin-left: 12px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.gmail-close {
+  color: #333;
+  font-weight: bold;
+}
+
+.gmail-fields {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+.gmail-to,
+.gmail-subject {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.gmail-body {
+  border: none;
+  resize: vertical;
+  padding: 10px;
+  font-size: 14px;
+  min-height: 150px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.gmail-footer {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.gmail-send {
+  background-color: #1a73e8;
+  color: white;
+  font-weight: bold;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.gmail-send:hover {
+  background-color: #0c5fc1;
+}
+
+/* ✅ Loader Spinner */
+.spinner {
+  border: 4px solid #e0e0e0;
+  border-top: 4px solid #4285f4;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ✅ Toast / Snackbar */
+.toast-message {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  background-color: #323232;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  z-index: 9999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  animation: toastFade 0.3s ease-in-out;
+}
+
+@keyframes toastFade {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.coverletter-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3000;
+}
+
+.coverletter-popup {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 800px;
+  max-width: 95vw;
+  height: 1050px; /* Approx 1 page height */
+  overflow-y: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+.coverletter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.coverletter-header .close-btn {
+  font-size: 20px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.coverletter-footer {
+  margin-top: auto;
+  text-align: right;
+}
+
+.coverletter-footer button {
+  padding: 0.5rem 1rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.quill-editor {
+  flex: 1;
+  margin: 1rem 0;
+  height: 800px; /* almost full page */
+}
